@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Birthday</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HAPPY BIRTHDAY</h1>
+        
+        <div class="image-container">
+            <img src="happybirthday.png" alt="Birthday Celebration" />
+        </div>
+        
+        <div class="message" id="message">
+            <p>On this special day, I want to remind you of how much you mean to me. Every moment spent with you is a treasure, and I cherish every laugh, every hug, and every adventure we share.</p>
+            <p>Your kindness, strength, and passion inspire me daily. You are my rock, my guide, and my greatest joy. As we celebrate today, I want you to know that your love and presence mean the world to me.</p>
+            <p>I hope this year brings you as much happiness as you have brought into my life. May your dreams come true, and may we create many more unforgettable moments together. You deserve every bit of joy this world has to offer.</p>
+            <p>With love,<br>Gita</p>
+        </div>
+
+        <button class="btn" id="updateMessageBtn">Click Me</button>
+    </div>
+
+    <script>
+        document.getElementById("updateMessageBtn").addEventListener("click", function() {
+            document.getElementById("message").innerHTML = "<p>Meet me at the park today at 7:00 PM, and once again, happy birthday!</p>";
+        });
+    </script>
+</body>
+</html>
